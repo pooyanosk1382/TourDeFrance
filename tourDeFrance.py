@@ -22,3 +22,6 @@ def tournament(countryName, countrySpeed):
         time.sleep(countrySpeed)
     endTime = time.time()
     print(str(countryName) + ' covered distance in ' + str(endTime - startTime) + ' seconds.')
+
+
+tournament(country[0], speed[0])

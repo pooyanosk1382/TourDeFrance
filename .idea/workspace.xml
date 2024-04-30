@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="tour de france">
+    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="complete the function!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tourDeFrance.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourDeFrance.py" afterDir="false" />
     </list>
@@ -79,7 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1714493636942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="defining the function">
+      <created>1714494192937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494192937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="function is working correctly">
+      <created>1714494300524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494300524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="complete the function!">
+      <created>1714494395487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494395487</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +117,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="choosing country and speed is complete" />
     <MESSAGE value="tour de france" />
-    <option name="LAST_COMMIT_MESSAGE" value="tour de france" />
+    <MESSAGE value="defining the function" />
+    <MESSAGE value="function is working correctly" />
+    <MESSAGE value="complete the function!" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete the function!" />
   </component>
 </project>

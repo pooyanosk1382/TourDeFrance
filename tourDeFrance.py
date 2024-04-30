@@ -14,14 +14,23 @@ for i in range(8):
     print(country[i], speed[i])
 
 
-def tournament(countryName, countrySpeed, day):
+def race(countryName, countrySpeed, day):
     startTime = time.time()
     distance = 0
-    for i in range(100):
+    for i in range(10):
         distance += 1
         time.sleep(countrySpeed)
     endTime = time.time()
-    print(str(countryName) + ' covered distance in ' + str(endTime - startTime) + ' seconds in day ' + str(day))
+    period = endTime - startTime
+    print(str(countryName) + ' covered distance in ' + str(period) + ' seconds in day ' + str(day+1))
+    return period
 
 
-tournament(country[0], speed[0], 5)
+def tournament(countryName, countrySpeed):
+    competitionTime = 0
+    for i in range(10):
+        competitionTime += race(countryName, countrySpeed, i)
+    print(str(countryName) + ' covered all distance in ' + str(competitionTime) + 'seconds.')
+
+
+tournament(country[0], speed[0])

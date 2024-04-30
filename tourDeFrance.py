@@ -14,14 +14,14 @@ for i in range(8):
     print(country[i], speed[i])
 
 
-def tournament(countryName, countrySpeed):
+def tournament(countryName, countrySpeed, day):
     startTime = time.time()
     distance = 0
     for i in range(100):
         distance += 1
         time.sleep(countrySpeed)
     endTime = time.time()
-    print(str(countryName) + ' covered distance in ' + str(endTime - startTime) + ' seconds.')
+    print(str(countryName) + ' covered distance in ' + str(endTime - startTime) + ' seconds in day ' + str(day))
 
 
-tournament(country[0], speed[0])
+tournament(country[0], speed[0], 5)

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="choosing country and speed is complete" />
+    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="tour de france">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tourDeFrance.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourDeFrance.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714493322493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="choosing country and speed is complete">
+      <created>1714493596979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714493596979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tour de france">
+      <created>1714493636942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714493636942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="choosing country and speed is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="choosing country and speed is complete" />
+    <MESSAGE value="tour de france" />
+    <option name="LAST_COMMIT_MESSAGE" value="tour de france" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 import pycountry
 import random
+import time
+import multiprocessing
 
 countries = list(pycountry.countries)
 random_numbers = [random.randint(0, len(countries)) for _ in range(8)]
@@ -10,3 +12,13 @@ for i in range(8):
 
 for i in range(8):
     print(country[i], speed[i])
+
+
+def tournament(countryName, countrySpeed):
+    startTime = time.time()
+    distance = 0
+    for i in range(100):
+        distance += 1
+        time.sleep(countrySpeed)
+    endTime = time.time()
+    print(str(countryName) + ' covered distance in ' + str(endTime - startTime) + ' seconds.')

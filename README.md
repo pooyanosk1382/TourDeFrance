@@ -1,5 +1,6 @@
 # Tour De France
 In here Our goal is to simulate the Tour de France race.
+
 The Tour de France was first held in 1903 and has become an annual event, except for a few years during the World Wars.
 The race consists of around 21 day-long stages, which include a mix of flat stages, mountain stages, time trials, and sprint stages. The total distance covered is usually around 3,500 kilometers.
 The race is open to professional cycling teams, with each team typically consisting of 8-9 riders. Riders compete both individually and as part of their team.

@@ -8,7 +8,7 @@ import numpy as np
 def race(countryName, countrySpeed, day):
     startTime = time.time()
     distance = 0
-    for i in range(10):
+    for i in range(100):
         distance += 1
         time.sleep(countrySpeed)
     endTime = time.time()
@@ -18,7 +18,7 @@ def race(countryName, countrySpeed, day):
 
 
 def tournament(countryName, countrySpeed, competitionTime):
-    for i in range(2):
+    for i in range(21):
         competitionTime.value += race(countryName, countrySpeed, i)
     print(str(countryName) + ' covered all distance in ' + str(competitionTime.value) + 'seconds.')
     return competitionTime
@@ -27,7 +27,7 @@ def tournament(countryName, countrySpeed, competitionTime):
 if __name__ == '__main__':
     countries = list(pycountry.countries)
     random_numbers = [random.randint(0, len(countries) - 1) for _ in range(8)]
-    speed = [round(random.uniform(0.4, 0.5), 2) for _ in range(8)]
+    speed = [round(random.uniform(0.01, 0.02), 4) for _ in range(8)]
     country = [''] * 8
     cyclist = [None] * 8
     competitionTimes = [None] * 8

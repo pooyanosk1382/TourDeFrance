@@ -33,7 +33,8 @@ if __name__ == '__main__':
         print(country[i], speed[i])
 
     for day in range(21):
-        for i in range(8):
+
+        for i in range(8):  # creating some shared data that help us find the winner
             competitionTimes[i] = multiprocessing.Value('d', 0.0)
 
         for i in range(8):  # creating processes with target function of tournament

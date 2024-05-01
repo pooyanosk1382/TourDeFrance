@@ -8,3 +8,5 @@ The primary objective is to be the first rider to cross the finish line of the e
 The Tour de France is considered one of the most physically demanding sports events in the world. It attracts the best cyclists from around the globe, and winning the Tour is seen as a major achievement in a cyclist's career.
 The Tour de France is one of the most widely watched sporting events, with millions of spectators lining the roads and billions of television viewers worldwide.
 In summary, the Tour de France is an iconic bicycle race that tests the physical and mental limits of the world's top cyclists, making it a truly remarkable sporting event.
+
+In this code we simulate each day in the __race()__ where its arguments are name of the country, speed of that country, day and the period. First three are clear but the last one is just because we need a shared data that help us to find the winner.

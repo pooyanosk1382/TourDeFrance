@@ -46,12 +46,12 @@ if __name__ == '__main__':
         for i in range(8):  # join processes
             cyclist[i].join()
 
-        for i in range(8):
+        for i in range(8):  # update times
             competition[i] += competitionTimes[i].value
 
     for i in range(8):
-        print(country[i], competition[i])
+        print(str(country[i]) + "'s total time is " + str(competition[i]))
 
     topThreeIndices = np.argsort(competition)[:3]
     topThreeCountries = [country[i] for i in topThreeIndices]
-    print(topThreeCountries)
+    print("Top three countries are " + str(topThreeCountries))

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="winner">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tourDeFrance.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourDeFrance.py" afterDir="false" />
-    </list>
+    <list default="true" id="7f475a50-7e7a-45a2-acef-bc110855ae18" name="Changes" comment="commenting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +172,28 @@
       <option name="project" value="LOCAL" />
       <updated>1714560261717</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="make the code perfect:D">
+      <created>1714567838134</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714567838134</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commenting">
+      <created>1714567986727</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714567986727</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commenting">
+      <created>1714568105874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714568105874</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +218,8 @@
     <MESSAGE value="debugging" />
     <MESSAGE value="keep going" />
     <MESSAGE value="winner" />
-    <option name="LAST_COMMIT_MESSAGE" value="winner" />
+    <MESSAGE value="make the code perfect:D" />
+    <MESSAGE value="commenting" />
+    <option name="LAST_COMMIT_MESSAGE" value="commenting" />
   </component>
 </project>

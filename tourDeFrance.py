@@ -20,7 +20,7 @@ def race(countryName, countrySpeed, day, period):
 if __name__ == '__main__':
     countries = list(pycountry.countries)
     randomNumbers = [random.randint(0, len(countries) - 1) for _ in range(8)]
-    speed = [round(random.uniform(0.1, 0.2), 4) for _ in range(8)]
+    speed = [round(random.uniform(0.01, 0.02), 4) for _ in range(8)]
     country = [''] * 8
     cyclist = [None] * 8
     competitionTimes = [None] * 8
@@ -47,7 +47,11 @@ if __name__ == '__main__':
             cyclist[i].join()
 
         for i in range(8):
+            print(competitionTimes[i].value)
             competition[i] += competitionTimes[i].value
+
+    for i in range(8):
+        print(country[i], competition[i])
 
     topThreeIndices = np.argsort(competition)[:3]
     topThreeCountries = [country[i] for i in topThreeIndices]

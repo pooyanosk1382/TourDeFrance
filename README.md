@@ -10,3 +10,5 @@ The Tour de France is one of the most widely watched sporting events, with milli
 In summary, the Tour de France is an iconic bicycle race that tests the physical and mental limits of the world's top cyclists, making it a truly remarkable sporting event.
 
 In this code we simulate each day in the __race()__ where its arguments are name of the country, speed of that country, day and the period. First three are clear but the last one is just because we need a shared data that help us to find the winner.
+
+We simulate all the competition in a __for loop__. We use that in range 21 that is number of days and each day we create 8 processes that every process has a country name, speed, number of day, a shared data and target function of race. In this way we simulate all the competition and every day we update the times of each country in the competition and at the end of the code we will show the winner.(Top three)

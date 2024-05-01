@@ -12,9 +12,9 @@ def race(countryName, countrySpeed, day, period):
         distance += 1
         time.sleep(countrySpeed)
     endTime = time.time()
-    period = endTime - startTime
-    print(str(countryName) + ' covered distance in ' + str(period) + ' seconds in day ' + str(day+1))
-    return period
+    period.value = endTime - startTime
+    print(str(countryName) + ' covered distance in ' + str(period.value) + ' seconds in day ' + str(day+1))
+    return period.value
 
 
 if __name__ == '__main__':
@@ -47,7 +47,6 @@ if __name__ == '__main__':
             cyclist[i].join()
 
         for i in range(8):
-            print(competitionTimes[i].value)
             competition[i] += competitionTimes[i].value
 
     for i in range(8):

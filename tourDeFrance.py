@@ -2,6 +2,7 @@ import pycountry
 import random
 import time
 import multiprocessing
+import numpy as np
 
 
 def race(countryName, countrySpeed, day):
@@ -30,6 +31,7 @@ if __name__ == '__main__':
     country = [''] * 8
     cyclist = [None] * 8
     competitionTimes = [None] * 8
+    competition = [0] * 8
     for i in range(8):
         competitionTimes[i] = multiprocessing.Value('d', 0.0)
     for i in range(8):  # names of countries in the competition
@@ -42,3 +44,8 @@ if __name__ == '__main__':
         cyclist[i].start()
     for i in range(8):  # join processes
         cyclist[i].join()
+    for i in range(8):
+        competition[i] = competitionTimes[i].value
+    top_three_indices = np.argsort(competition)[:3]
+    top_three_values = [country[i] for i in top_three_indices]
+    print(top_three_values)

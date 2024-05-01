@@ -3,16 +3,6 @@ import random
 import time
 import multiprocessing
 
-countries = list(pycountry.countries)
-random_numbers = [random.randint(0, len(countries)-1) for _ in range(8)]
-speed = [round(random.uniform(0.4, 0.5), 2) for _ in range(8)]
-country = [''] * 8
-for i in range(8):
-    country[i] = countries[random_numbers[i]].name
-
-for i in range(8):
-    print(country[i], speed[i])
-
 
 def race(countryName, countrySpeed, day):
     startTime = time.time()
@@ -34,6 +24,14 @@ def tournament(countryName, countrySpeed):
 
 
 if __name__ == '__main__':
+    countries = list(pycountry.countries)
+    random_numbers = [random.randint(0, len(countries) - 1) for _ in range(8)]
+    speed = [round(random.uniform(0.4, 0.5), 2) for _ in range(8)]
+    country = [''] * 8
+    for i in range(8):
+        country[i] = countries[random_numbers[i]].name
+    for i in range(8):
+        print(country[i], speed[i])
     country1 = multiprocessing.Process(target=tournament, args=(country[0], speed[0]))
     country2 = multiprocessing.Process(target=tournament, args=(country[1], speed[1]))
     country3 = multiprocessing.Process(target=tournament, args=(country[2], speed[2]))
